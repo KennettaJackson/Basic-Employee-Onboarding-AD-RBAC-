@@ -1,10 +1,10 @@
 # Basic Employee Onboarding (AD)(RBAC)
 
 ## Problem Statement
-[Provide 3 to 5 sentences describing what was broken at Northstar Medical Group. Mention the MSP mismanagement, lack of structure, manual processes, and HIPAA risks that existed before your project.]
+* Before this project, Northstar Medical Group's Active Directory environment (Fictional Company) was poorly managed by an MSP and had very little structure. Users were created manually with inconsistent permissions, departments weren't properly organized, and there was no reliable process for onboarding or offboarding employees. Documentation was almost nonexistent, which led to delays, confusion, and accounts remaining active long after employees left the company. On top of that, these issues created unnecessary security risks and put the organization at risk of failing HIPAA compliance requirements.
 
 ## Solution Overview
-[Provide 4 to 6 sentences describing what you built and how it solved the problem. Cover the new domain creation, the structural OU design, the security groups, the flat RBAC model, and how user provisioning was secured.]
+* To fix these issues, I built a new Active Directory domain for Northstar Medical Group (NMG.com) from the ground up and designed a structured Organizational Unit (OU) hierarchy based on business departments. I created security groups using a flat Role-Based Access Control (RBAC) model so permissions could be assigned through group membership instead of managing users individually. This approach follows the principle of least privilege by ensuring users only receive the access they need for their roles. I also simulated and resolved a mock support ticket where a user was provisioned with the incorrect level of access, reinforcing how to identify and correct permission issues in a real-world environment. The new structure makes user provisioning and access management more secure, consistent, and scalable while reducing the risk of human error.
 
 ## Video Walkthrough
 [Add your video walkthrough link placeholder here. You will record this tomorrow and update this link so visitors can see a live demonstration of your lab environment.]
@@ -13,7 +13,6 @@
 * Windows Server
 * Active Directory Domain Services
 * VirtualBox
-* UTM
 * RBAC
 * GitHub
 
@@ -25,7 +24,9 @@
 * Day 5: Documentation and case study packaging
 
 ## Key Accomplishments
-* Built NMG.com domain from scratch
-* [Add your second key accomplishment here]
-* [Add your third key accomplishment here]
+* Built the NMG.com Active Directory domain from scratch.
+* Designed a structured OU hierarchy and implemented a flat RBAC model using security groups to simplify and secure access management.
+* Fully documented the setup process, including OU structure, group design, and user provisioning workflow for future reference and scalability.
+* Successfully resolved a mock support ticket involving a user with incorrect access by identifying the issue and correcting group membership to enforce proper permissions.
+* Gained a stronger understanding of Role-Based Access Control (RBAC), the Principle of Least Privilege, Active Directory structure, and how proper organization and attributes directly impact security, compliance, and day-to-day IT operations.
 
