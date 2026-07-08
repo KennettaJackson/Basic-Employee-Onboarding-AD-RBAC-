@@ -7,7 +7,7 @@
 * To fix these issues, I built a new Active Directory domain for Northstar Medical Group (NMG.com) from the ground up and designed a structured Organizational Unit (OU) hierarchy based on business departments. I created security groups using a flat Role-Based Access Control (RBAC) model so permissions could be assigned through group membership instead of managing users individually. This approach follows the principle of least privilege by ensuring users only receive the access they need for their roles. I also simulated and resolved a mock support ticket where a user was provisioned with the incorrect level of access, reinforcing how to identify and correct permission issues in a real-world environment. The new structure makes user provisioning and access management more secure, consistent, and scalable while reducing the risk of human error.
 
 ## Video Walkthrough
-[Add your video walkthrough link placeholder here. You will record this tomorrow and update this link so visitors can see a live demonstration of your lab environment.]
+(https://www.loom.com/share/497604b4b6684bcc8a7e8b40d16cebb9)
 
 ## Tools Used
 * Windows Server
